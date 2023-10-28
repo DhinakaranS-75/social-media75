@@ -1,0 +1,24 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #f28118;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbarLeft {
+  flex: 3;
+}
+.navbarCenter {
+  flex: 5;
+}
+.navbarRight {
+  flex: 4;
+}
+
+.navbarImg {
+  width: 32px;
+  height: 32pxs5;
+}
