@@ -13,7 +13,7 @@ export default function Navbar() {
       </div>
       <div className="navbarCenter">
         <div className="searchbar">
-          <SearchIcon />
+          <SearchIcon className="searchIcon" />
           <input
             type="text"
             className="searchInput"
@@ -22,9 +22,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbarRight">
-        <div className="navbarlinks">
-          <span className="navbarlink">Homepage</span>
-          <span className="navbarlink">Timeline</span>
+        <div className="navbarLinks">
+          <span className="navbarLink">Homepage</span>
+          <span className="navbarLink">Timeline</span>
         </div>
         <div className="navbarIcons">
           <div className="navbarIcon">
