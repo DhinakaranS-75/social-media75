@@ -11,6 +11,12 @@
 .navbarLeft {
   flex: 3;
 }
+.navbarLogo {
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
 .navbarCenter {
   flex: 5;
 }

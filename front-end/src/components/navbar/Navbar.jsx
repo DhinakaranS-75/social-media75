@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbarLeft">
-        <span className="logo">Socail Media</span>
+        <span className="navbarLogo">Socail Media</span>
       </div>
       <div className="navbarCenter">
         <div className="searchbar">
