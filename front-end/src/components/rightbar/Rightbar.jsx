@@ -13,6 +13,107 @@ export default function Rightbar() {
         </div>
         <img className="rightbarAd" src="assets/ad.png" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
+        <ul className="rightbarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                src="/assets/person/5.jpeg"
+                alt=""
+                className="rightbarProfileImg"
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">peter porker</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
