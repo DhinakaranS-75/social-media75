@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
 import ChatIcon from "@mui/icons-material/Chat";
@@ -9,7 +10,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbarLeft">
-        <span className="navbarLogo">Socail Media</span>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <span className="navbarLogo">Socail Media</span>
+        </Link>
       </div>
       <div className="navbarCenter">
         <div className="searchbar">
