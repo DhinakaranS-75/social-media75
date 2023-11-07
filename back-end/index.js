@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 const helmet = require("helmet");
 const morgan = require("morgan");
@@ -7,6 +8,7 @@ const authRoute = require("./routes/auth");
 const postRoute = require("./routes/posts");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
